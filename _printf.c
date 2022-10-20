@@ -1,5 +1,4 @@
 #include "main.h"
-<<<<<<< HEAD
 #include <stdlib.h>
 
 /**
@@ -7,12 +6,6 @@
  * @format: possible format specifier
  *
  * Return: pointer to valid function or NULL
-=======
-/**
- * _printf - Printf function
- * @format: format.
- * Return: Number of printed chars.
->>>>>>> 08519669715fdf06052f187af3016793c40a3e87
  */
 static int (*check_for_specifiers(const char *format))(va_list)
 {
